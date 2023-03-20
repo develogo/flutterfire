@@ -26,7 +26,7 @@ class RemoteNotification {
   /// Constructs a [RemoteNotification] from a raw Map.
   factory RemoteNotification.fromMap(Map<String, dynamic> map) {
     return RemoteNotification(
-      title: map['title'],
+      title: "Teste",
       titleLocArgs: _toList(map['titleLocArgs']),
       titleLocKey: map['titleLocKey'],
       body: map['body'],

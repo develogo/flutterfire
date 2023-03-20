@@ -87,7 +87,7 @@ class FlutterFirebaseMessagingUtils {
     Map<String, Object> androidNotificationMap = new HashMap<>();
 
     if (notification.getTitle() != null) {
-      notificationMap.put("title", "Felipe");
+      notificationMap.put("title", notification.getTitle());
     }
 
     if (notification.getTitleLocalizationKey() != null) {
@@ -99,7 +99,7 @@ class FlutterFirebaseMessagingUtils {
     }
 
     if (notification.getBody() != null) {
-      notificationMap.put("body", "Felipe 2");
+      notificationMap.put("body", notification.getBody());
     }
 
     if (notification.getBodyLocalizationKey() != null) {
